@@ -1,0 +1,133 @@
+:root {
+    /*----------Variables----------*/
+
+    /*-----Colors-----*/
+
+    /*Primary*/
+
+    --primary-violet: hsl(257, 40%, 49%);
+    --primary-soft-magenta: hsl(300, 69%, 71%);
+
+    /*Neutral*/
+
+    --white: #fafafa;
+    --dark: #141110;
+
+}
+
+/*----------Global-Styles----------*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--white);
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*----------Main-Styles----------*/
+
+.huddle-container {
+    background-color: var(--primary-violet);
+    background-image: url(images/bg-mobile.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    height: 100%;
+    padding: 30px 30px 50px 30px;
+}
+
+/*-----Header-----*/
+
+#header {
+    margin-bottom: 50px;
+}
+
+.header__logo {
+    width: 40%;
+    max-width: 180px;
+}
+
+/*-----Illustration-----*/
+
+.main__illustration {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.main__illustration img {
+    object-fit: cover;
+    width: 100%;
+}
+
+/*-----Copy-----*/
+
+.main__copy {
+    text-align: center;
+    padding: 0 10px;
+    margin-bottom: 50px;
+}
+
+.main__copy--title {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+.main__copy--description {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.register-btn {
+    height: 40px;
+    width: 60%;
+    max-width: 312px;
+    border-radius: 25px;
+    border: none;
+    color: var(--primary-violet);
+    box-shadow: 0px 0px 20px hsl(257, 32%, 31%);
+}
+
+.register-btn:hover {
+    background-color: var(--primary-soft-magenta);
+    color: var(--white);
+}
+
+/*-----Footer-----*/
+
+.footer__social {
+    width: 35%;
+    max-width: 110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    border: 1px solid var(--white);
+    border-radius: 50%;
+
+}
+
+.fab {
+    font-size: 1.5rem;
+}

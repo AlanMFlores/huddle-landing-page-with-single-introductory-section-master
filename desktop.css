@@ -1,0 +1,32 @@
+.huddle-container {
+    padding: 60px 60px 40px 60px;
+    background-image: url(images/bg-desktop.svg);
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main__illustration {
+    width: 58%;
+}
+
+.main__copy {
+    text-align: left;
+    width: 40%;
+}
+
+.register-btn {
+    max-width: 175px;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.footer__social {
+    margin: 0;
+}
